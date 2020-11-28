@@ -30,9 +30,6 @@ const initialFormValues = {
 export default function SignupForm() {
   const classes = useStyles();
 
-  const formCallback = () => {
-    // do something like an api
-  };
   const [values, clearForm, handleSubmit, handleChanges] = useForm(
     'signUpForm',
     initialFormValues,
@@ -75,15 +72,3 @@ export default function SignupForm() {
     </div>
   );
 }
-
-// const useInput = initialValue => {
-//   // state
-//   const [value, setValue] = useState(initialValue);
-
-//   // handleChanges
-//   const handleChanges = e => {
-//     setValue(e.target.value);
-//   };
-
-//   return [value, setValue, handleChanges];
-// };

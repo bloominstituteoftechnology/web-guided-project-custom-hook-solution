@@ -3,7 +3,7 @@ import { makeStyles } from '@material-ui/core/styles';
 import TextField from '@material-ui/core/TextField';
 
 import { useForm } from '../hooks/useForm';
-import Button from '../theme/Button';
+import Button from './../theme/Button';
 
 export const useStyles = makeStyles(theme => ({
   container: {
@@ -29,6 +29,12 @@ const initialFormValues = {
 
 export default function SignupForm() {
   const classes = useStyles();
+
+  const formCallback = ()=> {
+    console.log(values);
+    alert(`${values.username} ${values.email}`);
+  }
+
 
   const [values, clearForm, handleSubmit, handleChanges] = useForm(
     'signUpForm',

@@ -51,7 +51,7 @@ These are the questions used internally to check student understanding. Students
 #### Which of the following would NOT be considered "stateful logic"?
 * event handler functions
 * const [players, setPlayers] = useState([])
-* **<h2 className="sub-header">Hello</h2>**
+* **h2 className="sub-header">Hello /h2**
 * fetching data from an API
 
 #### If you had a custom hook called useWindowSize whose return value was [height, width], how would you use this hook in your component?

@@ -2,6 +2,7 @@
 
 ## [Training Kit](https://github.com/LambdaSchool/Full-Stack-Web-Curriculum/tree/main/03-WebApplications-II/Sprint%2001%20-%20Advanced%20React/Module%203%20-%20Composing%20and%20Sharing%20Non-Visual%20Behaviors)
 
+### [Previous Lesson Plan] (https://github.com/LambdaSchool/Web_CustomHooks_GuidedProject)
 ----
 
 ## Objectives

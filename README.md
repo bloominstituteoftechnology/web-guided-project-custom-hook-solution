@@ -169,26 +169,26 @@ These are the questions used internally to check student understanding. Students
 
 ### Build localStorage hook in the useForm folder.
 * Handle the building of the function
-1. Build function useLocalStorage.
-2. Pass in initialValue.
-3. Create state.
+  1. Build function useLocalStorage.
+  2. Pass in initialValue.
+  3. Create state.
 
 * Add the process for retrieving from localStorage
-1. Introduce the passing of a function into useState.
-2. Add conditional to check if localStorage exists and if do, return that value.
-3. If not in localStorage, add to it and return initialValue.
-4. Make sure you pass in the key.
+  1. Introduce the passing of a function into useState.
+  2. Add conditional to check if localStorage exists and if do, return that value.
+  3. If not in localStorage, add to it and return initialValue.
+  4. Make sure you pass in the key.
 
 * Add the process for setting localStorage
-1. Remember we are returning a version of setValue.
-2. In setValue, set the value in state.
-3. Set the value in localStorage.
-4. return setValue and value.
+  1. Remember we are returning a version of setValue.
+  2. In setValue, set the value in state.
+  3. Set the value in localStorage.
+  4. return setValue and value.
 
 * Compose hooks using in useForm using localStorage hook.
-1. Replace useState with useLocalStorage.
-2. Be sure to pass in 'form' key.
-3. Test.
+  1. Replace useState with useLocalStorage.
+  2. Be sure to pass in 'form' key.
+  3. Test.
 
 * Note the seemlessness of custom hooks when applied to state hook. This is the power of composing hooks.
 
@@ -211,9 +211,11 @@ Module Project
 Here is a review of today's material.
 
 Key Terminology
-* 📝 *localStorage* - [description](#)
-* 📝 *object bracket notation* - [description](#)
+* 📝 *localStorage* - [a javascript module for saving persistant data within your application](https://www.w3schools.com/jsref/prop_win_localstorage.asp)
+* 📝 *custom hook* - [a function used in functional React components for seperating business logic](https://reactjs.org/docs/hooks-custom.html)
+* 📝 *composing hooks* - [the process of wrapping and modifying the functionality of one hook with another](https://medium.com/better-programming/compose-react-hooks-like-composing-react-components-892c23530432)
 
 Key Concepts
-* 📝 *custom hooks* - [description](#)
-* 📝 *composing hooks* - [description](#)
+* 📝 *Stateful Logic* - [Application logic related to the manipulation of data](https://www.cronj.com/blog/learn-stateful-and-stateless-components-in-reactjs/)
+* 📝 *Seperation of Concerns* - [The programming principle related to developing small, focused, modular and interconnected code.](https://www.springboottutorial.com/software-design-seperation-of-concerns-with-examples)
+* 📝 *object bracket notation* - [Also called "Computed properties." A piece of javascript syntax that allows for the key of an object to be passed dynamicly](https://ui.dev/computed-property-names/)

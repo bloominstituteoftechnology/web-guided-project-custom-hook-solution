@@ -213,6 +213,8 @@ Here is a review of today's material.
 
 Key Terminology
 * 📝 *localStorage* - [a javascript module for saving persistant data within your application](https://www.w3schools.com/jsref/prop_win_localstorage.asp)
+* 📝 *JSON* - [Used for working 
+* 📝 *the JSON library* - [Used for working with JSON objects. Used in this lesson specifically to convert between objects and strings using JSON.parse and JSON.stringify](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON)
 * 📝 *custom hook* - [a function used in functional React components for seperating business logic](https://reactjs.org/docs/hooks-custom.html)
 * 📝 *composing hooks* - [the process of wrapping and modifying the functionality of one hook with another](https://medium.com/better-programming/compose-react-hooks-like-composing-react-components-892c23530432)
 

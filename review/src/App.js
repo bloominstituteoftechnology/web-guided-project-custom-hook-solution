@@ -1,63 +1,35 @@
 import React, { useState, useEffect } from "react";
 import "./styles.scss";
 
-import data from "../data";
+import pokemonServices from './services/pokemonServices';
 
-function App() {
-  const [pokemen, setPokemen] = useState([]);
+import PokeList from './components/PokeList';
+import SelectedPoke from './components/SelectedPoke';
+
+const usePokemon = (initialPokeList)=>{
+  const [pokemen, setPokemen] = useState(initialPokeList);
   const [selectedPokemon, setSelectedPokemon] = useState({});
 
   useEffect(() => {
-    setPokemen(data);
+    setPokemen(pokemonServices.fetchAllPoke());
   }, []);
 
   const handlePoke = (id) => {
-    fetch(`https://pokeapi.co/api/v2/pokemon/${id}/`)
-      .then((res) => res.json())
-      .then((data) => {
+    pokemonServices.fetchSelectedPoke(id).then((data) => {
         setSelectedPokemon(data);
-      });
+    });
   };
 
+  return([selectedPokemon, handlePoke, pokemen]);
+}
+
+function App() {
+  const [selectPokemon, handlePoke, pokemen] = usePokemon([]);
+  
   return (
     <div className="App">
-      <div id="selectedDiv">
-        <h2>Selected Pokemon: {selectedPokemon.name || "none"}</h2>
-        {selectedPokemon.name && (
-          <div>
-            <img
-              src={selectedPokemon.sprites.front_default}
-              alt={selectedPokemon.sprites.front_default}
-            />
-            <h5>Height: {selectedPokemon.height}</h5>
-            <h5>Weight: {selectedPokemon.weight}</h5>
-            <h5>Abilities:</h5>
-            <ul>
-              {selectedPokemon.abilities.map((a) => (
-                <li key={a.ability.name}>
-                  {a.ability.name} - Slot {a.slot}{" "}
-                </li>
-              ))}
-            </ul>
-          </div>
-        )}
-      </div>
-      <div id="pokeList">
-        {pokemen.map((pokemon) => (
-          <div
-            onClick={() => handlePoke(pokemon.id)}
-            key={pokemon.id}
-            className="pokemon"
-          >
-            <img src={pokemon.img} alt={pokemon.name} />
-            <div>
-              <h3>{pokemon.name}</h3>
-              {pokemon.next_evolution &&
-                pokemon.next_evolution.map((e) => <p key={e.num}>{e.name}</p>)}
-            </div>
-          </div>
-        ))}
-      </div>
+      <SelectedPoke selectedPokemon={selectPokemon} />
+      <PokeList handlePoke={handlePoke} pokemen={pokemen} />
     </div>
   );
 }

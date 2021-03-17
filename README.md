@@ -17,31 +17,37 @@ By the end of this module, learners should be able to:
 ## Instructor Resources
 * 🐙 [Guided Project Starter](https://github.com/LambdaSchool/web-guided-project-custom-hook)
 * 🐙 [Guided Project Solution](https://github.com/LambdaSchool/web-guided-project-custom-hook-solution)
-* 🐙 [Module Project](https://github.com/LambdaSchool/dark-mode)
-* 🐙 [Module Project Solution]()
+* 🐙 [Module Project](https://github.com/LambdaSchool/web-module-project-custom-hook)
+* 🐙 [Module Project Solution](https://github.com/LambdaSchool/web-module-project-custom-hook-solution)
 
 ----
 
 ## Guided Project Slack Message
+> **Welcome to Unit 3!**
+>
 > 1. Clone without forking the following repo: https://github.com/LambdaSchool/web-guided-project-custom-hook
 > 2. Navigate into both the review and followAlong folders and run npm i to load dependences.
 >
 > :point_right: Technical issues spinning up the project? Please head over to the help channel!
+>
 > :point_right: If you fall behind during lecture and wish to catch up:
 >
-> git fetch && git reset --hard origin/lecture
+> `git fetch && git reset --hard origin/lecture`
 >
-> :point_right: Slido event: *insert slido link*
+> :point_right: Slido event: https://app.sli.do/event/msea4w8q
 
 ----
 
 ## Guided Project Zoom Invitation:
-> Unit 3 | Sprint 1 | **Module 2: Custom Hooks**
+> **Unit 3 | Sprint 1 | Module 3: Custom Hooks**
 > _______________________________________________________
-> Zoom Link : *insert zoom link*
-> Slido: *insert slido link*
+> Zoom Link : https://lambdaschool.zoom.us/j/3076367334
+>
+> Slido: https://app.sli.do/event/msea4w8q
+>
 > Guided Project: https://github.com/LambdaSchool/web-guided-project-custom-hook
-> Module Project: https://github.com/LambdaSchool/dark-mode
+>
+> Module Project: https://github.com/LambdaSchool/web-module-project-custom-hook
 
 ----
 
@@ -196,7 +202,7 @@ These are the questions used internally to check student understanding. Students
 * Modularize localStorage.
 
 ### Module Project Review
-* [Dark Mode](https://github.com/LambdaSchool/dark-mode)
+* [Dark Mode](https://github.com/LambdaSchool/web-module-project-custom-hook)
 
 ## Breakout Slack Messages
 
@@ -206,19 +212,20 @@ These are the questions used internally to check student understanding. Students
 Hope you all enjoyed today's guided Lesson!
 A reminder if that office hours are from 2:30 - 3:30 Lambda Time. Don't forget to complete the days Check for Understanding and Pulse Checks! 
 
-Module Project
-[Dark Mode](https://github.com/LambdaSchool/dark-mode)
+Module Project: https://github.com/LambdaSchool/web-module-project-custom-hook
 
 Here is a review of today's material.
 
-Key Terminology
-* 📝 *localStorage* - [a javascript module for saving persistant data within your application](https://www.w3schools.com/jsref/prop_win_localstorage.asp)
-* 📝 *JSON* - [Used for working 
+Key Terminology:
+* 📝 *localStorage* - [a javascript module for saving persistant data within your application](https://blog.logrocket.com/localstorage-javascript-complete-guide/#whereislocalstoragestored)
 * 📝 *the JSON library* - [Used for working with JSON objects. Used in this lesson specifically to convert between objects and strings using JSON.parse and JSON.stringify](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON)
 * 📝 *custom hook* - [a function used in functional React components for seperating business logic](https://reactjs.org/docs/hooks-custom.html)
 * 📝 *composing hooks* - [the process of wrapping and modifying the functionality of one hook with another](https://medium.com/better-programming/compose-react-hooks-like-composing-react-components-892c23530432)
 
-Key Concepts
+Key Concepts:
 * 📝 *Stateful Logic* - [Application logic related to the manipulation of data](https://www.cronj.com/blog/learn-stateful-and-stateless-components-in-reactjs/)
 * 📝 *Seperation of Concerns* - [The programming principle related to developing small, focused, modular and interconnected code.](https://www.springboottutorial.com/software-design-seperation-of-concerns-with-examples)
 * 📝 *object bracket notation* - [Also called "Computed properties." A piece of javascript syntax that allows for the key of an object to be passed dynamicly](https://ui.dev/computed-property-names/)
+
+Stretch Tutorials:
+* Model Custom Hook - https://upmostly.com/tutorials/modal-components-react-custom-hooks

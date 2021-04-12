@@ -209,23 +209,30 @@ These are the questions used internally to check student understanding. Students
 ----
 
 ## After Class Message
-Hope you all enjoyed today's guided Lesson!
-A reminder if that office hours are from 2:30 - 3:30 Lambda Time. Don't forget to complete the days Check for Understanding and Pulse Checks! 
+**Hope you all enjoyed today's guided Lesson!**
+**A reminder if that office hours are from 2:30 - 3:00 Lambda Time.** 
+**Don't forget to complete the days Check for Understanding and Pulse Checks!**
 
+**Here is a review of today's material.**
+
+### Module Materials
 Module Project: https://github.com/LambdaSchool/web-module-project-custom-hook
+GP Slides : https://docs.google.com/presentation/d/1Pd0GyIx-DMmtruuAz3ZWuXkV3N5K_Z6SNZftcN3T8Z8/edit?usp=sharing
+GP Video: (processing)
+Yesterday's Module Project Review: https://www.loom.com/share/a9c6c6230a33452ea67e3e484671b25f PW: klt31T4
+Alternative Lecture Video: [Dustin Myers](https://youtu.be/KcpbY22WqP8) | [Josh Jacobson](https://youtu.be/_FoezSN1YRE) | [Warren C. Longmire](https://youtu.be/UrCq44RxhrE) | [Brian Kirkby](https://youtu.be/p5O4XD-5hes)
 
-Here is a review of today's material.
 
-Key Terminology:
+### Key Terminology:
 * 📝 *localStorage* - [a javascript module for saving persistant data within your application](https://blog.logrocket.com/localstorage-javascript-complete-guide/#whereislocalstoragestored)
 * 📝 *the JSON library* - [Used for working with JSON objects. Used in this lesson specifically to convert between objects and strings using JSON.parse and JSON.stringify](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON)
 * 📝 *custom hook* - [a function used in functional React components for seperating business logic](https://reactjs.org/docs/hooks-custom.html)
 * 📝 *composing hooks* - [the process of wrapping and modifying the functionality of one hook with another](https://medium.com/better-programming/compose-react-hooks-like-composing-react-components-892c23530432)
 
-Key Concepts:
+### Key Concepts:
 * 📝 *Stateful Logic* - [Application logic related to the manipulation of data](https://www.cronj.com/blog/learn-stateful-and-stateless-components-in-reactjs/)
 * 📝 *Seperation of Concerns* - [The programming principle related to developing small, focused, modular and interconnected code.](https://www.springboottutorial.com/software-design-seperation-of-concerns-with-examples)
 * 📝 *object bracket notation* - [Also called "Computed properties." A piece of javascript syntax that allows for the key of an object to be passed dynamicly](https://ui.dev/computed-property-names/)
 
-Stretch Tutorials:
+### Stretch Tutorials:
 * Model Custom Hook - https://upmostly.com/tutorials/modal-components-react-custom-hooks

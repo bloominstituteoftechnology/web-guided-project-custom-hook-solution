@@ -218,7 +218,6 @@ These are the questions used internally to check student understanding. Students
 ### Module Materials
 Module Project: https://github.com/LambdaSchool/web-module-project-custom-hook
 GP Slides : https://docs.google.com/presentation/d/1Pd0GyIx-DMmtruuAz3ZWuXkV3N5K_Z6SNZftcN3T8Z8/edit?usp=sharing
-GP Video: (processing)
 Yesterday's Module Project Review: https://www.loom.com/share/a9c6c6230a33452ea67e3e484671b25f PW: klt31T4
 Alternative Lecture Video: [Dustin Myers](https://youtu.be/KcpbY22WqP8) | [Josh Jacobson](https://youtu.be/_FoezSN1YRE) | [Warren C. Longmire](https://youtu.be/UrCq44RxhrE) | [Brian Kirkby](https://youtu.be/p5O4XD-5hes)
 

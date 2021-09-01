@@ -227,6 +227,7 @@ Alternative Lecture Video: [Dustin Myers](https://youtu.be/KcpbY22WqP8) | [Josh 
 
 ### Key Terminology:
 * 📝 *localStorage* - [a javascript module for saving persistant data within your application](https://blog.logrocket.com/localstorage-javascript-complete-guide/#whereislocalstoragestored)
+* 📝 *cookies vs sessionStorage vs localStorage* - [these methods differ the size of what is stored, how persist it is, it's security and it's interactions with server requests](https://krishankantsinghal.medium.com/local-storage-vs-session-storage-vs-cookie-22655ff75a8)
 * 📝 *the JSON library* - [Used for working with JSON objects. Used in this lesson specifically to convert between objects and strings using JSON.parse and JSON.stringify](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON)
 * 📝 *custom hook* - [a function used in functional React components for seperating business logic](https://reactjs.org/docs/hooks-custom.html)
 * 📝 *composing hooks* - [the process of wrapping and modifying the functionality of one hook with another](https://medium.com/better-programming/compose-react-hooks-like-composing-react-components-892c23530432)

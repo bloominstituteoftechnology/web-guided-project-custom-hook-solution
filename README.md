@@ -1,8 +1,8 @@
 # Sprint 1 - Module 3 : Custom Hooks Lesson Plan
 
-## [Training Kit](https://github.com/LambdaSchool/Full-Stack-Web-Curriculum/tree/main/03-WebApplications-II/Sprint%2001%20-%20Advanced%20React/Module%203%20-%20Composing%20and%20Sharing%20Non-Visual%20Behaviors)
+## [Training Kit](https://github.com/BloomInstituteOfTechnology/Full-Stack-Web-Curriculum/tree/main/03-WebApplications-II/Sprint%2001%20-%20Advanced%20React/Module%203%20-%20Composing%20and%20Sharing%20Non-Visual%20Behaviors)
 
-### [Previous Lesson Plan](https://github.com/LambdaSchool/Web_CustomHooks_GuidedProject)
+### [Previous Lesson Plan](https://github.com/BloomInstituteOfTechnology/Web_CustomHooks_GuidedProject)
 ----
 
 ## Objectives
@@ -15,17 +15,17 @@ By the end of this module, learners should be able to:
 ----
 
 ## Instructor Resources
-* 🐙 [Guided Project Starter](https://github.com/LambdaSchool/web-guided-project-custom-hook)
-* 🐙 [Guided Project Solution](https://github.com/LambdaSchool/web-guided-project-custom-hook-solution)
-* 🐙 [Module Project](https://github.com/LambdaSchool/web-module-project-custom-hook)
-* 🐙 [Module Project Solution](https://github.com/LambdaSchool/web-module-project-custom-hook-solution)
+* 🐙 [Guided Project Starter](https://github.com/BloomInstituteOfTechnology/web-guided-project-custom-hook)
+* 🐙 [Guided Project Solution](https://github.com/BloomInstituteOfTechnology/web-guided-project-custom-hook-solution)
+* 🐙 [Module Project](https://github.com/BloomInstituteOfTechnology/web-module-project-custom-hook)
+* 🐙 [Module Project Solution](https://github.com/BloomInstituteOfTechnology/web-module-project-custom-hook-solution)
 
 ----
 
 ## Guided Project Slack Message
 > **Welcome to Unit 3!**
 >
-> 1. Clone without forking the following repo: https://github.com/LambdaSchool/web-guided-project-custom-hook
+> 1. Clone without forking the following repo: https://github.com/BloomInstituteOfTechnology/web-guided-project-custom-hook
 > 2. Navigate into both the review and followAlong folders and run npm i to load dependences.
 >
 > :point_right: Technical issues spinning up the project? Please head over to the help channel!
@@ -45,9 +45,9 @@ By the end of this module, learners should be able to:
 >
 > Slido: https://app.sli.do/event/msea4w8q
 >
-> Guided Project: https://github.com/LambdaSchool/web-guided-project-custom-hook
+> Guided Project: https://github.com/BloomInstituteOfTechnology/web-guided-project-custom-hook
 >
-> Module Project: https://github.com/LambdaSchool/web-module-project-custom-hook
+> Module Project: https://github.com/BloomInstituteOfTechnology/web-module-project-custom-hook
 
 ----
 
@@ -202,7 +202,7 @@ These are the questions used internally to check student understanding. Students
 * Modularize localStorage.
 
 ### Module Project Review
-* [Dark Mode](https://github.com/LambdaSchool/web-module-project-custom-hook)
+* [Dark Mode](https://github.com/BloomInstituteOfTechnology/web-module-project-custom-hook)
 
 ## Breakout Slack Messages
 
@@ -216,7 +216,7 @@ These are the questions used internally to check student understanding. Students
 **Here is a review of today's material.**
 
 ### Module Materials
-Module Project: https://github.com/LambdaSchool/web-module-project-custom-hook
+Module Project: https://github.com/BloomInstituteOfTechnology/web-module-project-custom-hook
 
 GP Slides : https://docs.google.com/presentation/d/1Pd0GyIx-DMmtruuAz3ZWuXkV3N5K_Z6SNZftcN3T8Z8/edit?usp=sharing
 

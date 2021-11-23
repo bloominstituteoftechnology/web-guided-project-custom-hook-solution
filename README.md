@@ -2,7 +2,7 @@
 
 ## [Training Kit](https://github.com/BloomInstituteOfTechnology/Full-Stack-Web-Curriculum/tree/main/03-WebApplications-II/Sprint%2001%20-%20Advanced%20React/Module%203%20-%20Composing%20and%20Sharing%20Non-Visual%20Behaviors)
 
-### [Previous Lesson Plan](https://github.com/BloomInstituteOfTechnology/Web_CustomHooks_GuidedProject)
+### [Previous Lesson Plan](https://github.com/BloomInstituteOfTechnology/Web_CustomHooks_GuidedProject) 
 ----
 
 ## Objectives

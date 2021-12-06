@@ -220,8 +220,6 @@ Module Project: https://github.com/BloomInstituteOfTechnology/web-module-project
 
 GP Slides : https://docs.google.com/presentation/d/1Pd0GyIx-DMmtruuAz3ZWuXkV3N5K_Z6SNZftcN3T8Z8/edit?usp=sharing
 
-Yesterday's Module Project Review: https://www.loom.com/share/8ffee711fd6d498da3a4707d667e6c09
-
 Alternative Lecture Video: [Dustin Myers](https://youtu.be/KcpbY22WqP8) | [Josh Jacobson](https://youtu.be/_FoezSN1YRE) | [Warren C. Longmire](https://youtu.be/UrCq44RxhrE) | [Brian Kirkby](https://youtu.be/p5O4XD-5hes)
 
 
